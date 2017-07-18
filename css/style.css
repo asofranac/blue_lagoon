@@ -1,0 +1,154 @@
+body {
+    font-family: 'BenchNine', sans-serif;
+    font-size: 22px;
+    background-color: #fff5e6;
+ 
+  
+}
+
+.navbar-default .navbar-nav > li > a {
+    background-color: #14213D;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: #14213D;
+}
+
+a:active {
+    background-color: #14213D;
+}
+
+#headingOne {
+    background-color: #14213D;
+}
+#headingTwo {
+    background-color: #14213D;
+    
+}
+
+#headingThree {
+    background-color: #14213D;
+    
+    
+}
+.navbar {
+    height: 60px;
+    margin-bottom: 0;
+    background-color: #14213D;
+    z-index: 9999;
+
+}
+    
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-default .navbar-brand {
+	color: #8BD7D2;
+}
+
+.glyphicon {
+	color: #8BD7D2;
+}
+
+.glyphicon {
+    margin: 5px;
+}
+
+.navbar-brand{
+    font-size: 28px;
+    padding: 5px;
+
+}
+
+.jumbotron {
+    margin-bottom: 0;
+    background-image: url('../images/image-1.jpg');
+    height: 600px;
+    text-indent: 20px;
+}
+
+.jumbotron h1 {
+    color: #8BD7D2;
+}
+
+
+
+/***************CONTACT PAGE*****************/
+
+.btn-default {
+    background-color: #14213D;
+    color: #8BD7D2;
+}
+
+
+.contact-section {
+    background-color: #8BD7D2;
+    background: url(../images/islandtime.jpg);
+
+}
+
+.contact-section h2 {
+    color: #DCE2C8;
+    font-size: 45px;
+}
+
+.contact-section p {
+    color: #DCE2C8;
+    line-height: 15px;
+    font-size: 10;
+}
+
+.contact-section hr {
+    color: #DCE2C8;
+}
+
+
+.amenities-header {
+    color: #8BD7D2;
+}
+
+.amenities-title {
+    color: #0090C1;
+}
+
+.form-group {
+    background-color: #8BD7D2;
+}
+
+
+
+
+
+
+
+
+/*Accomodations page*/
+.carousel-caption {
+    color: #DCE2C8;
+}
+/*Activities page*/
+h3 {
+    color: #0090C1;
+}
+
+.pitch-section img {
+	width: 100%;
+}
+
+
+.carousel-img {
+    width:100%;
+}
+
+.accomodations-body {
+    color:green;
+}
+.panel-title {
+    color: #8BD7D2;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}

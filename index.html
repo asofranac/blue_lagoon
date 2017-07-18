@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Bootstrap 101 Template</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Google Font -->
+    <style>
+      @import url('https://fonts.googleapis.com/css?family=BenchNine:400,700');
+    </style>
+  </head>
+
+  <body>
+        
+    <!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html"><span class="glyphicon glyphicon-tint" aria-hidden="true"></span>Blue Lagoon Resort & Spa</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="index.html">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="accommodations.html">Accommodations</a></li>
+          <li><a href="amenities.html">Amenities</a></li>
+          <li><a href="activities.html">Activities</a></li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>  
+
+
+<div class="about-jumbotron" id="top">
+   <div class="jumbotron" style='background-image: url("images/jumbotron.jpg")'>
+    <h1>The Blue Lagoon</h1>
+    <h2>Voted #1 best remote resort in the world</h2>
+  </div>
+</div>
+
+
+<!--ACCORDION-->
+<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title">
+        <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Accommodations
+        </a>
+      </h4>
+    </div>
+    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+      <div class="panel-body">
+        Our accommodations include, beachfront doubles, that lead right out onto your own private section of Beach. 
+        Beachfront Suites with a balcony that overlooks the beautiful coastline, of the Caribbean Sea.
+        Also, our top-level, or presidential Suites. Which are also, as roomy and luxurious as our Bridal Suites.
+    </div>
+  </div>
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingTwo">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Amenities
+        </a>
+      </h4>
+    </div>
+    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+      <div class="panel-body">
+           Other amenities  include; A banquet hall, our world-class Island restaurant, and for nightlife, our Blue Lagoon room. 
+           And please, don't forget our indoor and outdoor pool areas, for our guests, to meet and socialize.
+           Our Resort is also available, for private functions, and wedding events. Get in touch with us.
+           We are sure we can make your Wedding, a memorable event for you, and your guests.
+      </div>
+    </div>
+  <!--</div>-->
+  <div class="panel panel-default">
+    <div class="panel-heading" role="tab" id="headingThree">
+      <h4 class="panel-title">
+        <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Activities
+        </a>
+      </h4>
+    </div>
+    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+      <div class="panel-body">
+         We include boating, windsurfing, snorkeling, and also skin diving lessons in the waters surrounding our Islands.
+         We have for your convenience, a workout gym, early morning yoga classes, and a driving range.
+         For group activities we include jogging, and a hiking trail, with accommodations for beach volleyball,
+         and a basketball court.
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
